@@ -15,7 +15,7 @@ public class HelloController {
 
     @GetMapping(value = "/{name}")
     public String sayHello(@PathVariable String name) {
-        var hello = "Hello %s";
+        var hello = "Hello good %s";
         return String.format(hello, name);
     }
 }
